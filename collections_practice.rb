@@ -34,6 +34,7 @@ def count_elements(array)
         count += 1 
       end
     end
+    unique_element[:count] = count
   end
 end
 
