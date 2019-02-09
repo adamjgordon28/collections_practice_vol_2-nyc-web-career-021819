@@ -31,7 +31,8 @@ def count_elements(array)
     count = 0 
     array.each do |element|
       if element == unique_element
-        count += 1
+        count += 1 
+      end
     end
   end
 end
