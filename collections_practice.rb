@@ -27,14 +27,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.uniq.each do |i| 
-     count = 0
-      array.each do |i2| 
-        if i2 == i 
-          count += 1 
-      end
-    end
-   i[:count] = count
+  array.uniq.each do |unique_element|
   end
 end
 
