@@ -27,6 +27,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  new_hash
   array.uniq.each do |unique_element|
     count = 0 
     array.each do |element|
