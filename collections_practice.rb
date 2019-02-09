@@ -28,6 +28,9 @@ end
 
 def count_elements(array)
   array.uniq.each do |unique_element|
+    count = 0 
+    array.each do |element|
+    end
   end
 end
 
